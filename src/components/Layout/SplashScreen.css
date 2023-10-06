@@ -1,0 +1,46 @@
+.home-page {
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #41295a  , #2f0743);
+  
+}
+
+.centered-content {
+  text-align: center;
+}
+
+.centered-image {
+  max-width: 100%;
+  max-height: 70vh;
+  margin: 0 auto;
+}
+
+.move-left-to-right {
+  animation: moveLeftToRight 3s linear infinite;
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+.loginIntro{
+  display: flex;
+  flex-direction: column;
+}
+
+.loginIntro .btn{
+  font-size: 24px;
+  padding: 10px;
+  font-weight: bolder;
+  border-radius: 20px;
+  margin-top: -90px;
+}
